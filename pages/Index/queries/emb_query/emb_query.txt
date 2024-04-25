@@ -1,0 +1,2 @@
+SELECT EMBEnd,sum(QTY) AS SUM 
+FROM ordinfo WHERE EMBEnd BETWEEN "{{Start.formattedDate}}" AND "{{End.formattedDate}}" GROUP BY EMBEnd ORDER BY EMBEnd;

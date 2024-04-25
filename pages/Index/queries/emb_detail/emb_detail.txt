@@ -1,0 +1,1 @@
+SELECT EMBEnd,imno,style,fabric,colorway,QTY FROM ordinfo WHERE EMBEnd BETWEEN "{{Table_Emb.selectedRow.EMBEnd}}" AND "{{Table_Emb.selectedRow.EMBEnd}}" ORDER BY EMBEnd;

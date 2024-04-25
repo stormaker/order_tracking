@@ -1,0 +1,1 @@
+SELECT CutEnd,imno,style,fabric,colorway,QTY FROM ordinfo WHERE CutEnd BETWEEN "{{Table_Cut.selectedRow.CutEnd}}" AND "{{Table_Cut.selectedRow.CutEnd}}" ORDER BY CutEnd;

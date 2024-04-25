@@ -1,0 +1,1 @@
+SELECT PressEnd,imno,style,fabric,colorway,QTY FROM ordinfo WHERE PressEnd BETWEEN "{{Table_Press.selectedRow.PressEnd}}" AND "{{Table_Press.selectedRow.PressEnd}}" ORDER BY PressEnd;

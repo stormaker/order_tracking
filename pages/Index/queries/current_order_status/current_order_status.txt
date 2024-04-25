@@ -1,0 +1,7 @@
+SELECT imno,style,fabric,colorway,QTY,SewingStart,ExFactory,Ordercomment FROM ordinfo WHERE zt={{Current_order_status.selectedRow.zt}} AND ExFactory<=(SELECT DATE_ADD(
+    DATE_SUB(
+        CURDATE(), 
+        INTERVAL (WEEKDAY(CURDATE())) DAY
+    ), 
+    INTERVAL 14 DAY
+) + INTERVAL 4 DAY ) ORDER BY ExFactory;

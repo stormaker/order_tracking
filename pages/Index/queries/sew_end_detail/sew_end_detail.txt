@@ -1,0 +1,1 @@
+SELECT SewingEnd,imno,style,fabric,colorway,unit,SewingGroup,QTY FROM ordinfo WHERE SewingEnd BETWEEN "{{Table_SewingEnd.selectedRow.SewingEnd}}" AND "{{Table_SewingEnd.selectedRow.SewingEnd}}" ORDER BY SewingEnd;

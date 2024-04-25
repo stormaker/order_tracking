@@ -1,0 +1,1 @@
+SELECT style,school,sum(QTY)AS SUM,PressEnd FROM ordinfo WHERE PressEnd BETWEEN "{{Start.formattedDate}}" AND "{{End.formattedDate}}" GROUP BY PressEnd ORDER BY PressEnd;

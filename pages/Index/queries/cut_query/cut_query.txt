@@ -1,0 +1,2 @@
+SELECT CutEnd,sum(QTY) AS SUM 
+FROM ordinfo WHERE CutEnd BETWEEN "{{Start.formattedDate}}" AND "{{End.formattedDate}}" GROUP BY CutEnd ORDER BY CutEnd;

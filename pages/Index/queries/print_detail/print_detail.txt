@@ -1,0 +1,1 @@
+SELECT PrintingMarkCompleted,imno,style,fabric,colorway,QTY FROM ordinfo WHERE PrintingMarkCompleted BETWEEN "{{Table_Print.selectedRow.PrintingMarkCompleted}}" AND "{{Table_Print.selectedRow.PrintingMarkCompleted}}" ORDER BY PrintingMarkCompleted;
