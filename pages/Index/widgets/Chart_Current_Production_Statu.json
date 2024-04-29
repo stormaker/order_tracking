@@ -12,8 +12,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 0,
-    "bottomRow": 59,
+    "topRow": 6,
+    "bottomRow": 62,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
