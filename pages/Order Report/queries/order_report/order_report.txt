@@ -1,0 +1,1 @@
+SELECT BH,imno,accountid,school,zt,ztmc,style,sales,fabric,colorway,QTY,Unit,yqbz AS Comments,OrderComment AS Shipment,ExFactoryFact,ExFactory,Delivery FROM ordinfo WHERE zt >=1 AND zt<=19;

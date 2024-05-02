@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Order Report",
+      "isDefault": false
+    },
+    {
       "id": "Sort and Filter Table",
       "isDefault": false
     },
@@ -24,7 +28,7 @@
   "color": "#FFEFDB",
   "icon": "hat",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
