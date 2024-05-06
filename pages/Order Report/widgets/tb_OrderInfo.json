@@ -100,7 +100,7 @@
     "dynamicPropertyPathList": [],
     "compactMode": "SHORT",
     "displayName": "Table",
-    "bottomRow": 80,
+    "bottomRow": 94,
     "columnWidthMap": {
         "image": 85,
         "gender": 115,
