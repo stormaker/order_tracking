@@ -28,7 +28,7 @@
   "color": "#FFEFDB",
   "icon": "hat",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"
