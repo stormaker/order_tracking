@@ -71,7 +71,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1714983200846,
+    "columnUpdatedAt": 1714983962261,
     "originalBottomRow": 59,
     "primaryColumnId": "BH",
     "defaultSelectedRowIndices": [0],
@@ -80,6 +80,7 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "ztmc",
+        "accountid",
         "imno",
         "school",
         "style",
@@ -94,7 +95,6 @@
         "Delivery",
         "Shipment",
         "BH",
-        "accountid",
         "zt"
     ],
     "dynamicPropertyPathList": [],
@@ -388,7 +388,7 @@
             "allowCellWrapping": false,
             "index": 2,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "accountid",
             "fontStyle": "",
             "textColor": "",
@@ -719,7 +719,7 @@
     "key": "1hz6z5p49i",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "textSize": "0.875rem",
     "widgetId": "56er52c53d",
     "enableServerSideFiltering": false,
