@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT BH,imno,accountid,school,zt,ztmc,style,sales,fabric,colorway,QTY,Unit,yqbz AS Comments,OrderComment AS Shipment,Est_Exfactory,ExFactory,Delivery FROM ordinfo WHERE zt >=1 AND zt<=19;",
+      "body": "SELECT BH,imno,accountid,school,zt,ztmc,style,sales,fabric,colorway,QTY,Unit,yqbz AS Comments,OrderComment AS Shipment,Est_Exfactory,ExFactory,Delivery, DATEDIFF(DELIVERY, Est_Exfactory) AS Delivery_diff FROM ordinfo WHERE zt >=1 AND zt<=19;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
