@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  user_sales
+WHERE
+  sales LIKE '%{{Select1.filterText}}%'

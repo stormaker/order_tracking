@@ -15,6 +15,10 @@
     {
       "id": "Index",
       "isDefault": true
+    },
+    {
+      "id": "Order Report by Sales",
+      "isDefault": false
     }
   ],
   "viewMode": false,

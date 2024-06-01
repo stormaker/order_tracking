@@ -1,0 +1,1 @@
+SELECT BH,imno,accountid,school,zt,ztmc,style,sales,fabric,colorway,QTY,Unit,yqbz AS Comments,OrderComment AS Shipment,Est_Exfactory,ExFactory,Delivery, DATEDIFF(DELIVERY, Est_Exfactory) AS Delivery_diff FROM ordinfo WHERE zt >=1 AND zt<=19 and sales= {{Select1.selectedOptionValue}};
