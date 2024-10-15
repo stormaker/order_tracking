@@ -1,6 +1,7 @@
 {
   "gitSyncId": "66e3d175022e4844657e3e7d_b6d17a9e-516b-48f6-8315-670f4fd91dc4",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -25,7 +26,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Order Tracking Report",
+    "slug": "order-tracking-report"
   }
 }

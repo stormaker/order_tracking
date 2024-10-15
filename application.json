@@ -27,7 +27,11 @@
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "Order Tracking Report",
+      "isDefault": false
+    },
+    {
+      "id": "Order Tracking Report  by Sale",
       "isDefault": false
     }
   ],

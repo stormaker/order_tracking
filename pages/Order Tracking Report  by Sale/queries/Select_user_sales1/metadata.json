@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "66e3d175022e4844657e3e7d_41ee616a-33cd-4a32-8168-8405b675102f",
-  "id": "Page1_order_tracking",
+  "gitSyncId": "66e3d175022e4844657e3e7d_5ce8df58-ea6b-4570-b4e2-b5eb36da13ef",
+  "id": "Order Tracking Report  by Sale_Select_user_sales1",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT accountid,merch_id,SCHOOL,FABRIC,colorway,zt,ztmc,imno,STYLE,Unit,QTY,ExFACTORY,Est_Exfactory,DELIVERY,yqbz,Ordercomment,invoice,sales,payment_terms,OrderPlaced\n FROM ordinfo where zt BETWEEN 1 AND 19;",
+      "body": "SELECT\n  *\nFROM\n  user_sales\nWHERE\n  sales LIKE '%{{Select1.filterText}}%'",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -22,10 +22,14 @@
       "name": "STCN",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
-    "name": "order_tracking",
-    "pageId": "Page1",
+    "name": "Select_user_sales1",
+    "pageId": "Order Tracking Report  by Sale",
     "userSetOnLoad": false
   }
 }
