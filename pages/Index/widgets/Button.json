@@ -1,47 +1,57 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 57,
-    "widgetName": "Button",
-    "onClick": "{{cut_query.run();\nprint_query.run();\npress_query.run();\nsew_start_query.run();\nemb_query.run();\nsew_end_query.run()}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Icon button",
-    "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 122,
-    "bottomRow": 126,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 14,
-    "animateLoading": true,
-    "parentColumnSpace": 21.65625,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 31,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "2okufevpwu",
-    "isDeprecated": false,
-    "rightColumn": 33,
-    "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-    "iconName": "search",
-    "widgetId": "m1hy2jopty",
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 53,
-    "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 10,
-    "buttonVariant": "PRIMARY"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 126,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "search",
+  "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2okufevpwu",
+  "leftColumn": 31,
+  "minWidth": 50,
+  "mobileBottomRow": 57,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 53,
+  "needsErrorInfo": false,
+  "onClick": "{{cut_query.run();\nprint_query.run();\npress_query.run();\nsew_start_query.run();\nemb_query.run();\nsew_end_query.run()}}",
+  "parentColumnSpace": 21.65625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 33,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
+  "topRow": 122,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "m1hy2jopty",
+  "widgetName": "Button"
 }

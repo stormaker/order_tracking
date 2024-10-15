@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "66239c1273a2a10e267e2f1d_66239c5873a2a10e267e2f37",
+  "id": "Sort and Filter Table_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "Sort and Filter Table",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Sort and Filter Table_functions",
-  "deleted": false,
-  "gitSyncId": "66239c1273a2a10e267e2f1d_66239c5873a2a10e267e2f37"
+    "variables": []
+  }
 }

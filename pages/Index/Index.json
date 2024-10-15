@@ -1,202 +1,33 @@
 {
+  "gitSyncId": "66239c1273a2a10e267e2f1d_66239c1273a2a10e267e2f1f",
   "unpublishedPage": {
-    "name": "Index",
-    "slug": "index",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
+          "bottomRow": 2920,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 2920,
-          "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 1,
+          "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Index_JS_thismonday.myFun1",
-              "name": "JS_thismonday.myFun1",
-              "collectionId": "Index_JS_thismonday",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  var today = new Date();\n  var dayOfWeek = today.getDay();\n  var daysToMonday = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;\n  var monday = new Date(today);\n  monday.setDate(today.getDate() + daysToMonday);\n  var year = monday.getFullYear();\n  var month = monday.getMonth() + 1;\n  var day = monday.getDate();\n  return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_order_status",
-              "name": "order_status",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Index_current_order_status",
-              "name": "current_order_status",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Current_order_status.selectedRow.zt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_cut_detail",
-              "name": "cut_detail",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table_Cut.selectedRow.CutEnd"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_cut_query",
-              "name": "cut_query",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Start.formattedDate",
-                "End.formattedDate"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_emb_detail",
-              "name": "emb_detail",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table_Emb.selectedRow.EMBEnd"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_emb_query",
-              "name": "emb_query",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Start.formattedDate",
-                "End.formattedDate"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_press_detail",
-              "name": "press_detail",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table_Press.selectedRow.PressEnd"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_press_query",
-              "name": "press_query",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Start.formattedDate",
-                "End.formattedDate"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_print_query",
-              "name": "print_query",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Start.formattedDate",
-                "End.formattedDate"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_second_following_Friday",
-              "name": "second_following_Friday",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_sew_end_detail",
-              "name": "sew_end_detail",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table_SewingEnd.selectedRow.SewingEnd"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_sew_end_query",
-              "name": "sew_end_query",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Start.formattedDate",
-                "End.formattedDate"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_sew_start_detail",
-              "name": "sew_start_detail",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table_SewingStart.selectedRow.SewingStart"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Index_sew_start_query",
-              "name": "sew_start_query",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Start.formattedDate",
-                "End.formattedDate"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Index",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "66239c1273a2a10e267e2f1d_66239c1273a2a10e267e2f1f"
+    "name": "Index",
+    "slug": "index"
+  }
 }

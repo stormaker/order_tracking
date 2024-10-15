@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "66239c1273a2a10e267e2f1d_66250e1fbe8d337963c0ea75",
+  "id": "Index_JS_thismonday",
   "unpublishedCollection": {
     "name": "JS_thismonday",
     "pageId": "Index",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
         "value": "[]"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Index_JS_thismonday",
-  "deleted": false,
-  "gitSyncId": "66239c1273a2a10e267e2f1d_66250e1fbe8d337963c0ea75"
+    ]
+  }
 }
