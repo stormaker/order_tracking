@@ -23,7 +23,7 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "getSupportTickets",
     "pageId": "Sort and Filter Table",
     "userSetOnLoad": false

@@ -1,0 +1,2 @@
+SELECT accountid,merch_id,SCHOOL,FABRIC,colorway,zt,ztmc,imno,STYLE,Unit,QTY,ExFACTORY,Est_Exfactory,DELIVERY,yqbz,Ordercomment,invoice,sales,payment_terms,OrderPlaced
+ FROM ordinfo where zt BETWEEN 1 AND 19;
